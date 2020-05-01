@@ -1,0 +1,34 @@
+*{
+
+}
+.col-cont{
+    color: rgb(0, 0, 0);
+}
+ul.list-horiz {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 5px;
+    opacity: 0.9;
+    padding-right: 10px;
+    /* float: left; */
+}
+ul.list-horiz li{
+    float: left;
+    padding: 5px;
+    border-bottom: 1px solid black;
+    
+}
+
+ul.list-spec{
+    list-style-type: none;
+}
+ul.list-vert {
+    list-style-type: none;
+}
+/* li. {
+    background-color: #a09d9d;
+    margin: 5px;
+    opacity: 0.9;
+    padding-right: 10px;
+    float: left;
+} */
