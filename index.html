@@ -9,10 +9,13 @@
 <body>
     
     <div class="panel panel-default">
-          <div class="panel-heading">
+          <div class="panel-heading" id="div1">
                 <h3 class="panel-title">Mazda 3</h3>
+                <img src="https://cars.ua/thumb/car/20181107/w933/h622/q80/kupit-mazda-3-odessa-1487833.jpg" 
+                id="img1" class="img-responsive" alt="Image">
+                
           </div>
-          <div class="panel-body">
+          <div class="panel-body" >
                <p>VIN JMZBK14Z551189150</p>
                <ul class="list-spec">
                    <li class="inherit1">Дата выпуска	13.07.2004</li>
@@ -27,25 +30,27 @@
                </ul>
           </div>
     </div>
-    <div class="col-cont">
+    <div class="col-cont col-xs-5 col-sm-5 col-md-5 col-lg-5">
         <ul class="list-vert">
             <li>
-                <div>
+                <div >
                 <ul class="list-horiz">
-                    <li >
-                        <p>Диск тромозной передний</p>
+                    <li class="name-item">
+                        <input type="checkbox" name="name-item-chbox" 
+                        id="name-item-chbox" onclick='calc()'/>
+                        <span>Диск тромозной передний</span>
                     </li>
-                    <li>
-                        <p>Remsa</p>
+                    <li class="vend-item">
+                        <span>Remsa</span>
                     </li>
-                    <li>
-                        <p>2 шт</p>
+                    <li class="in-item">
+                        <span>2 шт</span>
                     </li>
-                    <li>
-                       <p> 950 грн</p>
+                    <li class="price-item">
+                       <span> 950 грн</span>
                     </li>
-                    <li>
-                        <p>1900 грн</p>
+                    <li class="sum-item">
+                        <span>1900 грн</span>
                     </li>
                 </ul>
                 </div>
@@ -53,20 +58,21 @@
             <li>
                 <div>
                 <ul class="list-horiz">
-                    <li >
-                        <p>Диск тромозной передний</p>
+                    <li class="name-item">
+                        <!-- <input type="checkbox" name="name-item-chbox" id="name-item-chbox"> -->
+                        <span>Диск тромозной задний</span>
                     </li>
-                    <li>
-                        <p>Remsa</p>
+                    <li class="vend-item">
+                        <span>HI-Q</span>
                     </li>
-                    <li>
-                        <p>2 шт</p>
+                    <li class="in-item">
+                        <span>2 шт</span>
                     </li>
-                    <li>
-                       <p> 950 грн</p>
+                    <li class="price-item">
+                        <span> 550 грн</span>
                     </li>
-                    <li>
-                        <p>1900 грн</p>
+                    <li class="sum-item">
+                        <span>1100 грн</span>
                     </li>
                 </ul>
                 </div>
@@ -74,25 +80,123 @@
             <li>
                 <div>
                 <ul class="list-horiz">
-                    <li >
-                        <p>Диск тромозной передний</p>
+                    <li class="name-item">
+                        <span>Колодки тормозные передние</span>
                     </li>
-                    <li>
-                        <p>Remsa</p>
+                    <li class="vend-item">
+                        <span>Remsa</span>
                     </li>
-                    <li>
-                        <p>2 шт</p>
+                    <li class="in-item">
+                        <span>1 к-т</span>
                     </li>
-                    <li>
-                       <p> 950 грн</p>
+                    <li class="price-item">
+                        <span> 600 грн</span>
                     </li>
-                    <li>
-                        <p>1900 грн</p>
+                    <li class="sum-item">
+                        <span>600 грн</span>
                     </li>
                 </ul>
                 </div>
+            </li>
+            <li>
+                <div>
+                <ul class="list-horiz">
+                    <li class="name-item">
+                        <span>Колодки тормозные задние</span>
+                    </li>
+                    <li class="vend-item">
+                        <span>HI-Q</span>
+                    </li>
+                    <li class="in-item">
+                        <span>1 к-т</span>
+                    </li>
+                    <li class="price-item">
+                        <span> 550 грн</span>
+                    </li>
+                    <li class="sum-item">
+                        <span>600 грн</span>
+                    </li>
+                </ul>
+                </div>
+            </li>
+            <li>
+                <div>
+                <ul class="list-horiz">
+                    <li class="name-item">
+                        <span>Рем. комплект суппорта(направляющие)</span>
+                    </li>
+                    <li class="vend-item">
+                        <span>Frenki</span>
+                    </li>
+                    <li class="in-item">
+                        <span>4 к-т</span>
+                    </li>
+                    <li class="price-item">
+                        <span> 90 грн</span>
+                    </li>
+                    <li class="sum-item">
+                        <span>360 грн</span>
+                    </li>
+                </ul>
+                </div>
+            </li>
+            <li>
+                <div>
+                <ul class="list-horiz">
+                    <li class="name-item">
+                        <span>Рем. комплект поршня суппорта</span>
+                    </li>
+                    <li class="vend-item">
+                        <span>Ert</span>
+                    </li>
+                    <li class="in-item">
+                        <span> 2 к-т</span>
+                    </li>
+                    <li class="price-item">
+                        <span> 400 грн</span>
+                    </li>
+                    <li class="sum-item">
+                        <span>  800 грн</span>
+                    </li>
+                </ul>
+                </div>
+            </li>
+            <li>
+                <div>
+                <ul class="list-horiz">
+                    <li class="name-item">
+                        <span>Монтажный комплект колодок (пружины)</span>
+                    </li>
+                    <li class="vend-item">
+                        <span>Frenkit</span>
+                    </li>
+                    <li class="in-item">
+                        <span> 1 к-т</span>
+                    </li>
+                    <li class="price-item">
+                        <span> 90 грн</span>
+                    </li>
+                    <li class="sum-item">
+                        <span>  90 грн</span>
+                    </li>
+                </ul>
+                </div>
+            </li>
+            <li class="summary-item">
+                
             </li>
         </ul>
     </div>
+    <p>Summ =<span id="sum-item-res"></span></p>
+    <script>
+        /* var x = 0; */
+         function calc(){
+            if (document.getElementById('name-item-chbox').checked) {
+                var x = 0;
+                x = x + 1900;
+                return (x);
+                document.getElementById('sum-item-res').value='= ' x ;
+            } )
+    </script>
 </body>
 </html>

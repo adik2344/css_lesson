@@ -1,22 +1,48 @@
 *{
 
 }
+img{
+    border: 0;
+    position: relative;
+    float: right;
+    max-width: 20%;
+    right: 5px;
+    opacity: 0.5;
+}
+img:hover#img1{
+    opacity: 1;
+    /* animation: cubic-bezier:(0.455, 0.03, 0.515, 0.955); */
+    animation-timing-function: ease;
+    /* position: relative; */
+    animation: mymove 6s ;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+/* img#img1 {
+    
+} */
+@keyframes mymove {
+    0% {right: 0px;}
+    100% {right: 800px;}
+}
 .col-cont{
     color: rgb(0, 0, 0);
 }
 ul.list-horiz {
     list-style-type: none;
     overflow: hidden;
-    margin: 5px;
+    margin-left: 5px;
     opacity: 0.9;
     padding-right: 10px;
     /* float: left; */
 }
 ul.list-horiz li{
     float: left;
-    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
     border-bottom: 1px solid black;
-    
+  
+
 }
 
 ul.list-spec{
@@ -32,3 +58,18 @@ ul.list-vert {
     padding-right: 10px;
     float: left;
 } */
+ul.list-horiz li.name-item{
+    width: 300px;
+}
+ul.list-horiz li.vend-item{
+    width: 50px;
+}
+ul.list-horiz li.in-item{
+    width: 50px;
+}
+ul.list-horiz li.price-item{
+    width: 75px;
+}
+ul.list-horiz li.sum-item{
+    width: 100px;
+}
