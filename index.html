@@ -189,14 +189,14 @@
     </div>
     <p>Summ =<span id="sum-item-res"></span></p>
     <script>
-        /* var x = 0; */
          function calc(){
+            var x = 0;
             if (document.getElementById('name-item-chbox').checked) {
-                var x = 0;
-                x = x + 1900;
-                return (x);
-                document.getElementById('sum-item-res').value='= ' x ;
-            } )
+                x += 1900;
+                document.getElementById('sum-item-res').innerHTML=x ;
+            } else {
+                document.getElementById('sum-item-res').innerHTML=0 ;
+            }}
     </script>
 </body>
 </html>

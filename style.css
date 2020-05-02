@@ -1,6 +1,3 @@
-*{
-
-}
 img{
     border: 0;
     position: relative;
@@ -8,15 +5,16 @@ img{
     max-width: 20%;
     right: 5px;
     opacity: 0.5;
+    transition: all 3s;
 }
+
 img:hover#img1{
     opacity: 1;
-    /* animation: cubic-bezier:(0.455, 0.03, 0.515, 0.955); */
-    animation-timing-function: ease;
-    /* position: relative; */
+    cursor: pointer;
+    /* animation-timing-function: ease;
     animation: mymove 6s ;
     animation-fill-mode: forwards;
-    animation-play-state: running;
+    animation-play-state: running; */
 }
 /* img#img1 {
     
