@@ -17,6 +17,7 @@ img:hover#img1{
     animation: mymove 6s ;
     animation-fill-mode: forwards;
     animation-play-state: running;
+    
 }
 /* img#img1 {
     

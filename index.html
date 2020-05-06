@@ -30,6 +30,7 @@
                </ul>
           </div>
     </div>
+    
     <div class="col-cont col-xs-5 col-sm-5 col-md-5 col-lg-5">
         <ul class="list-vert">
             <li>
@@ -37,7 +38,7 @@
                 <ul class="list-horiz">
                     <li class="name-item">
                         <input type="checkbox" name="name-item-chbox" 
-                        id="name-item-chbox" onclick='calc()'/>
+                        id="name-item-chbox" onclick="calc()"/>
                         <span>Диск тромозной передний</span>
                     </li>
                     <li class="vend-item">
@@ -187,16 +188,18 @@
             </li>
         </ul>
     </div>
-    <p>Summ =<span id="sum-item-res"></span></p>
+    <p>Summ <span id="sum-item-res"></span></p>
     <script>
         /* var x = 0; */
          function calc(){
+            var x = 0;
             if (document.getElementById('name-item-chbox').checked) {
-                var x = 0;
+                
                 x = x + 1900;
-                return (x);
-                document.getElementById('sum-item-res').value='= ' x ;
-            } )
+            }   
+                document.getElementById('sum-item-res').value='= ' + x ;
+         } 
+            
     </script>
 </body>
 </html>
